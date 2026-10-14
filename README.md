@@ -1,4 +1,4 @@
-# Shanice Reih H. Tanque — Engineering Portfolio
+# Shanice Reih H. Tanque — Embedded Systems & IoT Portfolio
 
 Personal portfolio for **Shanice Reih H. Tanque**, a BS Computer Applications student at MSU-IIT majoring in **Embedded Systems and Internet of Things**.
 
