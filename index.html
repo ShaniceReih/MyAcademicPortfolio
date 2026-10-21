@@ -51,6 +51,128 @@
     .project h3 a:hover{color:var(--accent)}
     .media-link{display:block;color:inherit;text-decoration:none;transition:opacity .18s ease}
     .media-link:hover{opacity:.94}
+
+    /* Clean portfolio refresh */
+    :root{
+      --bg:#ffffff;
+      --surface:#ffffff;
+      --surface2:#fafafa;
+      --text:#161616;
+      --muted:#686868;
+      --line:#e9e9ee;
+      --accent:#5b46c5;
+      --accent-soft:#f3f0ff;
+      --teal:#47606a;
+      --dark:#17171b;
+      --shadow:none;
+      --radius:14px;
+      --max:1040px;
+    }
+    body{background:var(--bg);font-size:14.5px;line-height:1.55}
+    .wrap{max-width:var(--max);padding:0 24px}
+    .nav{background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav-inner{height:58px}
+    .brand{font-size:14px;font-weight:800;letter-spacing:-.02em}
+    .links{gap:18px;font-size:12.5px}
+    .btn{padding:7px 12px;font-size:12.5px;border-radius:10px;box-shadow:none}
+    .btn:hover{transform:none;box-shadow:none;border-color:#cfcbdc}
+    .btn.primary{background:var(--text);border-color:var(--text)}
+    .hero{padding:58px 0 34px;border-bottom:1px solid #f1f1f4}
+    .hero-grid{grid-template-columns:1.35fr .65fr;gap:34px;align-items:start}
+    .eyebrow{background:transparent;border:0;padding:0;color:var(--accent);font-size:11px;margin-bottom:10px}
+    .role{font-size:11px;letter-spacing:.12em;margin-bottom:10px}
+    h1{font-size:clamp(38px,5vw,54px);line-height:1.02;letter-spacing:-.045em;margin-bottom:16px;max-width:760px}
+    .lead{font-size:15.5px;line-height:1.65;max-width:720px;margin-bottom:20px}
+    .hero-card{
+      min-height:auto;
+      background:#fafafa;
+      color:var(--text);
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:18px;
+      box-shadow:none;
+    }
+    .hero-card:before{display:none}
+    .hero-card .label{color:#7a758a;font-size:10px}
+    .hero-card h3{font-size:20px;line-height:1.2;margin:10px 0 8px}
+    .hero-card p{color:var(--muted);font-size:13px;line-height:1.55}
+    .pills{margin-top:16px;gap:6px}
+    .pill{border:1px solid var(--line);background:#fff;color:#555;padding:4px 7px;font-size:10px}
+    .stats{display:none}
+    section{padding:44px 0}
+    .section-head{align-items:flex-start;margin-bottom:18px}
+    .section-head h2{font-size:26px;letter-spacing:-.035em}
+    .section-head p{max-width:520px;font-size:13px;line-height:1.55}
+    .grid{gap:14px}
+    .card{border:1px solid var(--line);border-radius:14px;box-shadow:none}
+    .project{background:#fff}
+    .project.featured{min-height:250px;grid-template-columns:1fr .88fr}
+    .project-body{padding:18px}
+    .kicker{font-size:9.5px;letter-spacing:.11em;color:#6a6478}
+    .project h3{font-size:18px;line-height:1.25;margin:6px 0 8px}
+    .project p{font-size:13px;line-height:1.55;margin-bottom:12px}
+    .project-metrics{gap:5px;margin-bottom:9px}
+    .metric,.tag{font-size:9.5px;border-radius:7px;padding:3px 6px;background:#fafafa}
+    .tags{gap:5px}
+    .project-links{margin-top:10px;font-size:12px;gap:12px}
+    .media{min-height:155px;background:#f6f6f8}
+    .media:after{background:linear-gradient(to top,rgba(0,0,0,.28),transparent 42%)}
+    .media-label{font-size:10px;left:12px;bottom:10px}
+    .media img,.media video{object-fit:cover}
+    .media img[alt*="Industrial drying oven"]{object-fit:contain;background:#f7f7f8;padding:8px}
+    .more .project{grid-column:span 6}
+    .more .media{min-height:145px}
+    .about-grid{grid-template-columns:.92fr 1.08fr;gap:14px}
+    .about-card{padding:18px}
+    .about-card h3{font-size:18px}
+    .about-card p{font-size:13px;line-height:1.6}
+    .skill-grid{grid-template-columns:repeat(2,1fr);gap:8px}
+    .skill{padding:11px;border-radius:10px}
+    .skill b{font-size:12px}
+    .skill span{font-size:11px;line-height:1.45}
+    .timeline{gap:12px}
+    .item{padding:15px}
+    .date{font-size:9.5px;letter-spacing:.08em}
+    .item h3{font-size:15px;line-height:1.3}
+    .item p{font-size:12.5px;line-height:1.55}
+    .award-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+    .award{padding:15px}
+    .award strong{font-size:14px;margin-bottom:5px}
+    .award span{font-size:12px;line-height:1.5}
+    .edu-grid{grid-template-columns:1fr 1fr;gap:12px}
+    .edu{padding:16px}
+    .edu h3{font-size:15px;line-height:1.3}
+    .edu p{font-size:12.5px}
+    .cert-list{gap:8px}
+    .cert{padding:11px;border-radius:10px;background:#fafafa}
+    .cert b{font-size:12.5px}
+    .cert span{font-size:11.5px;line-height:1.45}
+    .contact{
+      border-radius:16px;
+      padding:24px;
+      background:#18181c;
+      gap:20px;
+    }
+    .contact h2{font-size:26px}
+    .contact p{font-size:13px;line-height:1.55}
+    footer{padding:18px 0 26px;font-size:11.5px}
+    @media(max-width:920px){
+      .hero-grid,.about-grid,.edu-grid,.contact,.project.featured{grid-template-columns:1fr}
+      .project,.more .project{grid-column:span 12}
+      .skill-grid,.timeline,.award-grid{grid-template-columns:1fr 1fr}
+      .project.featured .media{min-height:210px}
+    }
+    @media(max-width:600px){
+      .wrap{padding:0 18px}
+      .hero{padding:42px 0 26px}
+      h1{font-size:38px}
+      .lead{font-size:14.5px}
+      .skill-grid,.timeline,.award-grid{grid-template-columns:1fr}
+      .section-head{gap:8px}
+      .section-head h2{font-size:23px}
+      .hero-card{padding:15px}
+    }
+
 </style>
 </head>
 <body>
