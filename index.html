@@ -180,6 +180,29 @@
       .skill:nth-child(odd),.skill:nth-child(even){padding-left:0;padding-right:0;border-left:0}
       .media,.project.featured .media,.more .media{height:170px}
     }
+
+    /* Typography cleanup */
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      letter-spacing:0;
+      color:#1f1f1f;
+    }
+    h1,h2,h3,.brand{
+      font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      letter-spacing:-0.015em;
+    }
+    h1{font-weight:700}
+    .section-head h2{font-weight:700}
+    .about-card p{font-size:13.5px;line-height:1.68}
+    .skill b{font-weight:650}
+    @media(max-width:520px){
+      body{font-size:14px}
+      h1{font-size:34px}
+      .section-head h2{font-size:22px}
+      .about-card p{font-size:13px;line-height:1.62}
+      .skill span{font-size:11.2px}
+    }
+
 </style>
 </head>
 <body>
@@ -187,7 +210,7 @@
 <main id="top">
 <header class="hero"><div class="wrap"><div class="hero-grid"><div><div class="role">BS Computer Applications · Major in Embedded Systems</div><h1>Hi, I’m Shanice.</h1><p class="lead">I’m a student at MSU-IIT interested in embedded systems and the way software works with hardware. This site is a collection of my academic projects, experience, and training.</p><div class="actions"><a class="btn primary" href="#projects">View Projects</a><a class="btn" href="https://github.com/ShaniceReih" target="_blank" rel="noopener">GitHub</a><a class="btn" href="https://www.hackster.io/shanicereihtanque" target="_blank" rel="noopener">Hackster</a><a class="btn" href="https://www.linkedin.com/in/shanicereihtanque/" target="_blank" rel="noopener">LinkedIn</a></div></div><aside class="hero-card"><div><div class="label">CURRENT THESIS</div><h3>Bell pepper aphid-damage detection</h3><p>Our group is developing an offline YOLOv8n system on Raspberry Pi 5 to detect visible aphid-related damage in bell pepper leaves.</p></div><div class="pills"><span class="pill">YOLOv8n</span><span class="pill">Raspberry Pi 5</span><span class="pill">Edge IoT</span><span class="pill">Computer Vision</span></div></aside></div><div class="stats"><div class="stat"><b>9+</b><span>technical projects & project series</span></div><div class="stat"><b>14/14</b><span>RT-Spark host test suites passed</span></div><div class="stat"><b>13 + 10</b><span>FreeRTOS unit + functional tests</span></div><div class="stat"><b>2×</b><span>TechShowcase 2025 awards</span></div></div></div></header>
 
-<section id="about"><div class="wrap"><div class="section-head"><h2>About me</h2><p>A little about my background and technical interests.</p></div><div class="about-grid"><div class="card about-card"><h3>About me</h3><p>I’m pursuing a Bachelor of Science in Computer Applications at Mindanao State University – Iligan Institute of Technology, majoring in Embedded Systems. My project experience spans STM32, FreeRTOS, RT-Thread, Raspberry Pi, Arduino, PLC/HMI control, Qt/C++, SQLite, and sensor integration.</p><p>Outside technical builds, I have experience in research support, student leadership, event coordination, and presenting technology projects in university showcases and competitions.</p></div><div class="card about-card"><div class="skill-grid"><div class="skill"><b>Programming</b><span>C, C++, SQL, IEC 61131-3 Structured Text</span></div><div class="skill"><b>Embedded & IoT</b><span>STM32, FreeRTOS, RT-Thread, Raspberry Pi 5, Arduino, ESP32</span></div><div class="skill"><b>Industrial Automation</b><span>CODESYS, PLC programming, HMI, finite-state machines, safety interlocks</span></div><div class="skill"><b>Frameworks & Tools</b><span>STM32Cube HAL, Qt, LVGL, PlatformIO, Arduino IDE, Wokwi, Git/GitHub</span></div><div class="skill"><b>Interfaces</b><span>I2S, DMA, ADC, PWM, I²C, OLED/LCD, audio codecs, sensors and actuators</span></div><div class="skill"><b>Testing</b><span>Unity, Cppcheck, host regression tests, functional verification, simulation testing</span></div></div></div></div></div></section>
+<section id="about"><div class="wrap"><div class="section-head"><h2>About me</h2><p>A little about my background and technical interests.</p></div><div class="about-grid"><div class="card about-card"><p>I’m pursuing a Bachelor of Science in Computer Applications at Mindanao State University – Iligan Institute of Technology, majoring in Embedded Systems. My project experience spans STM32, FreeRTOS, RT-Thread, Raspberry Pi, Arduino, PLC/HMI control, Qt/C++, SQLite, and sensor integration.</p><p>Outside technical builds, I have experience in research support, student leadership, event coordination, and presenting technology projects in university showcases and competitions.</p></div><div class="card about-card"><div class="skill-grid"><div class="skill"><b>Programming</b><span>C, C++, SQL, IEC 61131-3 Structured Text</span></div><div class="skill"><b>Embedded & IoT</b><span>STM32, FreeRTOS, RT-Thread, Raspberry Pi 5, Arduino, ESP32</span></div><div class="skill"><b>Industrial Automation</b><span>CODESYS, PLC programming, HMI, finite-state machines, safety interlocks</span></div><div class="skill"><b>Frameworks & Tools</b><span>STM32Cube HAL, Qt, LVGL, PlatformIO, Arduino IDE, Wokwi, Git/GitHub</span></div><div class="skill"><b>Interfaces</b><span>I2S, DMA, ADC, PWM, I²C, OLED/LCD, audio codecs, sensors and actuators</span></div><div class="skill"><b>Testing</b><span>Unity, Cppcheck, host regression tests, functional verification, simulation testing</span></div></div></div></div></div></section>
 
 <section id="education"><div class="wrap"><div class="section-head"><h2>Education & training</h2><p>My academic background, workshops, and conferences.</p></div><div class="edu-grid"><div class="card edu"><h3>Mindanao State University – Iligan Institute of Technology</h3><p><b>Bachelor of Science in Computer Applications</b></p><p>Major in Embedded Systems · 2023–2027</p><p>GPA: 1.32</p><h3 style="margin-top:24px">MSU at Naawan – Integrated Developmental School</h3><p>Science, Technology, Engineering, and Mathematics · 2017–2023</p><p>With Honors</p></div><div class="card edu"><div class="cert-list"><div class="cert"><b>Startup Basics 101</b><span>iDEYA:CIT, MSU-IIT · September 2026</span></div><div class="cert"><b>AI Career Readiness Training</b><span>ASEAN Ahead / ASEAN Foundation · August 2026</span></div><div class="cert"><b>Internet of Things Conference 2025 — Guest</b><span>Attended the two-day conference at SMX Convention Center, Pasay City · September 2025</span></div></div></div></div></div></section>
 
